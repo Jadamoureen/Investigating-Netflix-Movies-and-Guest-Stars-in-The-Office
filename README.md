@@ -4,9 +4,9 @@
 
 ### Create a dictionary. To do so, you will need to perform the following steps.
 
--Create a list of years from 2011 to 2020 and a list durations of the average movie lengths our friend provided (103, 101, 99, 100, 100, 95, 95, 96, 93, and 90).
--Create a dictionary movie_dict, with the keys "years" and "durations" and the values set to your lists years and durations.
--Print and inspect the dictionary to ensure it was created correctly.
+- Create a list of years from 2011 to 2020 and a list durations of the average movie lengths our friend provided (103, 101, 99, 100, 100, 95, 95, 96, 93, and 90).
+- Create a dictionary movie_dict, with the keys "years" and "durations" and the values set to your lists years and durations.
+- Print and inspect the dictionary to ensure it was created correctly.
 
 ## Creating a DataFrame from a dictionary
 - Import pandas using its usual alias, pd.
@@ -39,10 +39,10 @@
 ## Marking non-feature films
 Initialize an empty list called colors to store our different color values.
 - Use a for loop to iterate through the netflix_movies_col_subset DataFrame's rows and append colors to your colors list based on the following conditions:
-  o If the genre is "Children", append "red".
-  o If the genre is "Documentaries", append "blue".
-  o If the genre is "Stand-Up", append "green".
-  o If the genre is any other genre, append "black".
+  - If the genre is "Children", append "red".
+  - If the genre is "Documentaries", append "blue".
+  - If the genre is "Stand-Up", append "green".
+  - If the genre is any other genre, append "black".
 - Print the first 10 values of your colors list to inspect the results.
 
 ## Plotting with color!
